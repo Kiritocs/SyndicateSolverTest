@@ -40,19 +40,19 @@ namespace SyndicateSolver
                 {
                     IterateChildren(syndicatePanel);
                 }
-            }
-            Element syndicateTree = GameController.Game.IngameState.IngameUi.SyndicateTree;
-            if (syndicateTree.IsVisibleLocal)
-                LogMessage("syndicateTree visible");
-            if (syndicateTree.IsVisibleLocal != syndicateTreeOpen)
-            {
-                syndicateTreeOpen = !syndicateTreeOpen;
-                LogMessage("SyndicateTree is " + (syndicatePanelOpen ? "visible" : "not visible"));
-                if (syndicateTreeOpen)
-                {
-                    IterateChildren(syndicateTree);
-                }
-            }
+            // }
+            // Element syndicateTree = GameController.Game.IngameState.IngameUi.SyndicateTree;
+            // if (syndicateTree.IsVisibleLocal)
+            //     LogMessage("syndicateTree visible");
+            // if (syndicateTree.IsVisibleLocal != syndicateTreeOpen)
+            // {
+            //     syndicateTreeOpen = !syndicateTreeOpen;
+            //     LogMessage("SyndicateTree is " + (syndicatePanelOpen ? "visible" : "not visible"));
+            //     if (syndicateTreeOpen)
+            //     {
+            //         IterateChildren(syndicateTree);
+            //     }
+            // }
         }
 
         private void IterateChildren(Element element)
