@@ -40,7 +40,7 @@ namespace SyndicateSolver
                 {
                     IterateChildren(syndicatePanel);
                 }
-            // }
+            }
             // Element syndicateTree = GameController.Game.IngameState.IngameUi.SyndicateTree;
             // if (syndicateTree.IsVisibleLocal)
             //     LogMessage("syndicateTree visible");
